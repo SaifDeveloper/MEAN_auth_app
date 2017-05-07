@@ -28,7 +28,7 @@ const users = require('./routes/users');
 //const port = 3000;
 
 //Port for Heroku
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 
 //CORS Middleware
 app.use(cors());
